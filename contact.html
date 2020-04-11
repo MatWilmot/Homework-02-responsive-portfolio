@@ -54,7 +54,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-xs-12">
+        <div class="col-lg-4 col-md-6 col-xs-12">
           <article
             class="card p-2 mt-5 mx-auto"
             style="width: 300px; height: 490px;"
@@ -66,8 +66,8 @@
             />
             <div class="card-body">
               <h4 class="card-title text-center">GitHub</h4>
-              <p class="card-text text-center">
-                Here you will find all my repos from my Web Development classes
+              <p class="card-text text-center" style="height: 65px;">
+                Here you will find all repos from my Web Development classes
               </p>
               <a href="https://github.com/MatWilmot" class="btn btn-primary"
                 >See Profile</a
@@ -76,7 +76,7 @@
           </article>
         </div>
 
-        <div class="col-md-6 col-xs-12">
+        <div class="col-lg-4 col-md-6 col-xs-12">
           <article
             class="card p-2 mt-5 mx-auto"
             style="width: 300px; height: 490px;"
@@ -88,7 +88,7 @@
             />
             <div class="card-body">
               <h4 class="card-title text-center">LinkedIn</h4>
-              <p class="card-text text-center">
+              <p class="card-text text-center" style="height: 105px;">
                 Connect with me on LinkedIn to learn more about my employment
                 history and education.
               </p>
@@ -97,6 +97,27 @@
                 class="btn btn-primary"
                 >See Profile</a
               >
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-xs-12">
+          <article
+            class="card p-2 mt-5 mx-auto"
+            style="width: 300px; height: 490px;"
+          >
+            <img
+              class="card-img-top"
+              src="./assets/img/discord-logo.webp"
+              alt="Steam Logo"
+            />
+            <div class="card-body">
+              <h4 class="card-title text-center">Discord</h4>
+              <p class="card-text text-center" style="height: 65px;">
+                Sadly, Discord doesn't support friend request or profile links,
+                so here's my info:
+                <br /><strong>Username:</strong><br />BathMat#6921
+              </p>
             </div>
           </article>
         </div>
@@ -110,13 +131,18 @@
           <input
             type="email"
             class="form-control"
-            placeholder="Enter email"
+            placeholder="Enter email..."
             id="email"
           />
         </div>
         <div class="form-group">
           <label for="comment">Message</label>
-          <textarea class="form-control" id="comment" rows="5"></textarea>
+          <textarea
+            class="form-control"
+            id="comment"
+            rows="5"
+            placeholder="Nothing you type here will reach me, for now..."
+          ></textarea>
         </div>
         <button type="submit" class="btn btn-primary mb-5">Submit</button>
       </form>
