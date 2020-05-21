@@ -1,0 +1,18 @@
+.container {
+  color: #D1E8E2;
+}
+#jmbtrn {
+  color: black;
+}
+
+label {
+  color: #D1E8E2;
+}
+.card-body {
+  color: black;
+}
+
+hr {
+  height: 1px;
+  background-color: #2C3531;
+}

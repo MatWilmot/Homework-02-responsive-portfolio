@@ -6,11 +6,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: #e9ecef;">
-  <div class="jumbotron jumbotron-fluid mb-0">
-    <div class="container">
+<body style="background-color: #178285;">
+  <div class="jumbotron jumbotron-fluid mb-0"
+    style="background-image: url(https://i.imgur.com/gOachZZ.png); background-size: cover;">
+    <div class="container text-right mr-5" id="jmbtrn" style="background-color: white; width: fit-content; ">
       <h1 class="display-4">Mathew Wilmot</h1>
       <p class="lead">A place to learn about who I am and what I do</p>
     </div>
@@ -41,8 +43,9 @@
           <img class="card-img-top" src="./assets/img/GitHub-Mark-120px-plus.png" alt="GitHub Logo" />
           <div class="card-body text-center">
             <h4 class="card-title">GitHub</h4>
-            <p class="card-text" style="height: 65px;">
-              Here you will find all repos from my Web Development classes
+            <p class="card-text overflow-auto" style="height: 65px;">
+              Here you will find all repos from my Web Development classes, along with some projects I've worked on in
+              my own time.
             </p>
             <a href="https://github.com/MatWilmot" class="btn btn-primary">See Profile</a>
           </div>
@@ -78,7 +81,7 @@
       </div>
     </div>
 
-    <!-- This form currently does nothing when submitted -->
+    <!-- This form works now, thanks to Formspree -->
     <form action="https://formspree.io/xrgyerlp" method="POST">
       <div class="form-group mt-5">
         <h2>Send me a message!</h2>
@@ -92,7 +95,7 @@
         <textarea class="form-control" id="comment" rows="5" name="comment"
           placeholder="Send me a message and I'll get back to you as soon as possible!"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary mb-5" name="submit">Submit</button>
+      <button type="submit" class="btn btn-success mb-5" name="submit">Submit</button>
     </form>
   </div>
 </body>
